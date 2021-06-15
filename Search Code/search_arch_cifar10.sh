@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -x
 
-srun --partition=VA --job-name=derived --gres=gpu:4 --ntasks=1 --ntasks-per-node=8 -x BJ-IDC1-10-10-16-[44,48,56-58] --kill-on-bad-exit=1 \
+#srun --partition=VA --job-name=derived --gres=gpu:4 --ntasks=1 --ntasks-per-node=8 -x BJ-IDC1-10-10-16-[44,48,56-58] --kill-on-bad-exit=1 \
 python MGPU_search_arch.py \
 --gpu_ids 4,5,6,7 \
 --gen_bs 120 \
