@@ -7,7 +7,7 @@ python MGPU_train_arch.py \
 --dataset cifar10 \
 --bottom_width 4 \
 --img_size 32 \
---max_epoch_G 120 \
+--max_epoch_G 1\ #120 \
 --n_critic 5 \
 --arch arch_cifar10 \
 --draw_arch False \
