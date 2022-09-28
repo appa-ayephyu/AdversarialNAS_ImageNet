@@ -1,7 +1,5 @@
-# AdversarialNAS-GAN
-Code for our CVPR 2020 paper "[AdversarialNAS: Adversarial Neural Architecture Search for GANs](https://arxiv.org/pdf/1912.02037.pdf)".
-
-Contributed by Chen Gao, [Yunpeng Chen](https://cypw.github.io/), [Si Liu](https://scholar.google.com/citations?user=bqV8WoIAAAAJ&hl=zh-CN), Zhenxiong Tan, [Shuicheng Yan](https://scholar.google.com/citations?user=DNuiPHwAAAAJ&hl=zh-CN).
+# AdversarialNAS-ImageNet
+Code for our CVPR 2020 paper "[AdversarialNAS: Adversarial Neural Architecture Search for GANs](https://arxiv.org/pdf/1912.02037.pdf)". Modified for ImageNet on top of CIFAR-10 and STL-10
 
 ## Introduction
 We propose a novel **AdversarialNAS** method, which is the **first gradient-based fully differentiable NAS method in GAN field** and achieves state-of-art performance with much higher efficiency. We also design a large architecture search space for GAN and make it feasible to search in.
